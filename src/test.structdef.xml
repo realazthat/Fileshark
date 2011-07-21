@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="okteta2json.xsl" type="text/xsl" ?>
+<data>
+  <struct name="simple">
+    <primitive name="aChar" type="char"/>
+    <primitive name="anInt" type="int32"/>
+    <bitfield name="bitFlag" type="bool" width="1"/>
+    <bitfield name="padding" type="unsigned" width="7"/>
+  </struct>
+</data>
